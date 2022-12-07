@@ -1,0 +1,374 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+/*  ScrollBar Estilo */
+
+::-webkit-scrollbar{
+    width: 10px;
+}
+::-webkit-scrollbar-track{
+    background-color: #ffffff;
+    border-radius: 50px;
+}
+::-webkit-scrollbar-thumb{
+    background: #0008f5;
+    border-radius: 50px;
+}
+
+.subheader{
+    order: 1;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100px;
+    background-color: #ffffff;
+    /* Z-index para posicionar hasta arriba de todo */
+    z-index: 1000;
+}
+
+.titulo{
+    color: #0730ff;
+    font-size: 30px;
+    position: absolute;
+    top: 7px;
+    left: 70px;
+}
+
+#contenedorhead{
+    position: relative;
+    top: 27px;
+    left: 700px;
+}
+
+.contenedorhead{
+    width: 500px;
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.buttonhead {
+    height: 50px;
+    padding: 1.3em 3em;
+    font-size: 11px;
+    text-transform: uppercase;
+    letter-spacing: 2.5px;
+    font-weight: 500;
+    background-color: rgba(255, 255, 255, 0);
+    transition: all 0.3s ease 0s;
+    cursor: pointer;
+    outline: none;
+    border: none;
+    border-radius: 10px;
+  }
+  
+  .buttonhead:hover {
+    background-color: #2326c4;
+    box-shadow: 0px 15px 20px rgba(63, 85, 155, 0.4);
+    color: #fff;
+  }
+
+#hoax{
+    background-color: #2326c4;
+    color: #fff;
+}
+
+#contenedor{
+    position: relative;
+    top: 100px;
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+}
+
+.contenedor{
+    background-color: #ffffff;
+    width: 100%;
+    height: 600px;
+}
+
+.div{
+    width: 50%;
+    height: 600px;
+    background-color: #ffffff;
+    border-color: #010202;
+    border-radius: 2px;
+  /*  border-style: solid; */
+}
+
+img{
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+
+
+
+#buttonhead{
+    display:flex;
+    justify-content: space-around;
+    align-items: flex-end;
+}
+
+#divtxt{
+    position: relative;
+    
+    width: 30%;
+    height: 350px;
+    position: absolute;
+    top:  70px;
+    left: 120px;
+}
+
+.subtitulo{
+    color: #002861;
+    font-size: 35px;
+    display: flex;
+    text-align: justify;
+    justify-content: center;
+}
+
+.texto{
+    color: #878080;
+    font-size: 25px;
+    display: flex;
+    text-align: justify;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.txt{
+    color: #002861;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.divflotante{
+    position: absolute;
+    top: 420px;
+    left: 150px;
+    background-color: #ffffff;
+    width: 1000px;
+    height: 150px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    box-shadow: 0px 15px 20px rgba(7, 7, 7, 0.281);
+}
+
+.vacunas{
+    width: 100%;
+    height: 250px;
+    background-color: #ffffff;
+}
+
+#glass{
+    border-radius: 5px;
+    background: rgba(255, 255, 255, 0.736);
+    box-shadow: 0 8px 32px 0 rgb(255, 255, 255);
+    backdrop-filter: blur(4px);
+}
+
+.separador{
+    position: absolute;
+    top: 865px;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    fill: #ffffff;
+}
+
+.separador svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 100px;
+}
+
+.separadorgris{
+    position: absolute;
+    top: 1358px;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    fill: #ececec61;
+}
+
+
+#div2{
+    width: 100%;
+    height: 200px;
+    background-color: #ececec61;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+.divcards{
+    width: 100%;
+    height: 300px;
+    background-color: #ececec61;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.card {
+    text-align: center;
+    width: 190px;
+    height: 254px;
+    border-radius: 30px;
+    border-color: #0008f5;
+    border-style: solid;
+    background: #ffffff;
+    box-shadow: 15px 15px 30px #bebebe,
+    -15px -15px 30px #ffffff;
+}
+
+.info{
+    font-size: 17px;
+    color: black;
+}
+
+#contenedor2{
+    position: relative;
+    top: 150px;
+    display: flex;
+    height: 600px;
+    background-color: #878080;
+}
+
+.divderecho{
+    width: 50%;
+    height: 600px;
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#divtexto{
+    background-color: #ffffff;
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+}
+
+.divdata{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    height: 300px;
+    width: 100%;
+}
+
+.designdata{
+    background-color: #ffffff;
+    height: 40px;
+    width: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px 15px 20px rgba(7, 7, 7, 0.119);
+    border-radius: 20px;
+}
+
+#contenedor3{
+    width: 100%;
+    height: 400px;
+    background-color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+}
+
+#divinfo{
+    background-color: #ffffff;
+    height: 200px;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: end;
+}
+
+.divpadre{
+    background-color: #ffffff;
+    width: 600px;
+    height: 500px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-items: stretch;
+    align-items: stretch;
+    column-gap: 20px;
+    row-gap: 20px;
+}
+
+.divhijo{
+    background-color: #ffffff;
+    width: 250px;
+    height: 220px;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px 15px 20px rgba(7, 7, 7, 0.119);
+}
+
+.button{
+    height: 50px;
+    padding: 1.3em 3em;
+    font-size: 11px;
+    text-transform: uppercase;
+    letter-spacing: 2.5px;
+    font-weight: 500;
+    background-color: #c5d4ff;
+    transition: all 0.3s ease 0s;
+    cursor: pointer;
+    outline: none;
+    border: none;
+    border-radius: 10px;
+    color: #000058;
+  }
+
+  .button:hover {
+    background-color: #2326c4;
+    box-shadow: 0px 15px 20px rgba(63, 85, 155, 0.4);
+    color: #fff;
+  }
+
+  .final{
+    background-color:#c5d4ff ;
+    width: 100%;
+    height: 400px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+  }
+
+  .about{
+    width: 90%;
+    height: 300px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    justify-items: center;
+    align-items: center;
+    column-gap: 40px;
+    row-gap: 3px;
+}
+
+  .vaccunation{
+    color: #0730ff;
+    font-size: 30px;
+  }
